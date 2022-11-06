@@ -9,7 +9,7 @@ from sklearn.metrics import roc_auc_score
 
 model_out = 'model.bin'
 # import data
-df = pd.read_csv('default-of-credit-card-clients.csv')
+df = pd.read_csv('dataset/default-of-credit-card-clients.csv')
 
 # i will remove the id 
 del df['ID']
